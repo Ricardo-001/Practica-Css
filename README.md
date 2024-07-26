@@ -1,8 +1,10 @@
 # Practica Css
 
-## Detalles de las tecnologías y herramientas utilizadas 
+## Tecnologías y herramientas utilizadas 
 - Html
 - Css 
+
+### Detalles 
 
 Esta es una práctica de mis conocimientos en Css creando 3 formularios con Html y dándoles estilos con Css 
 
