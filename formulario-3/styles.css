@@ -1,0 +1,208 @@
+/* Start --- universal configuration --- labels and properties */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-image: url(./Assets/hendrik-cornelissen--qrcOR33ErA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+/* END --- universal configuration --- labels and properties */
+
+
+
+
+
+
+
+
+/* Start --- container-1 --- Login Sign in with link */
+.container-1{
+    /* box position */
+    position: absolute;
+    width: 307px;
+    height: 270px;
+    top: 30%;
+    left: 25%;
+
+    /* box aesthetics */
+    padding: 15px;
+    border-radius: 20px 0px 0px 20px; 
+    background-color: #2C5C89;
+    color: #fff;
+}
+
+
+.box-title{
+    /* box position */
+    position: relative;
+    width: 220x;
+    height: 40px;
+    margin: 10px;
+
+    /* box aesthetics */
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+.box-link{
+    /* box position */
+    position: relative;
+    width: 260px;
+    height: 30px;
+
+    /* box aesthetics */
+    margin: 10px 10px 13px 10px;
+}
+
+
+.login-whit{
+    /* box position */
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 5px;
+
+    /* box aesthetics */
+    text-align: center;
+    padding: 2px;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
+
+.icon{
+    position: absolute;  
+    left: 25px;
+    height: 20px;
+    top: 3px;
+}
+
+
+.google{
+    padding: 5px;
+    background-color: #509558;
+}
+
+
+.github{
+    padding: 5px;
+    background-color: #2e2e2e;
+}
+
+
+.twitter{
+    background-color: #75AFE6;
+    padding: 5px;
+}
+
+
+.facebook{
+    padding: 5px;
+    background-color: #01496c;
+}
+/* END container-1 --- Login Sign in with link */
+
+
+
+
+
+
+
+
+/* Start --- container-2 --- Create an Account */
+.container-2{
+    /* box position */
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    top: 30%;
+    left: 45%;
+
+    /* box aesthetics */
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #E8E7ED;
+}
+
+
+.title-form{
+    /* box position */
+    position: relative;
+    width: 380px;
+    height: 40px;
+    padding: 5px;
+
+    /* box aesthetics */
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+.box-input-form{
+    /* box position */
+    position: relative;
+    width: 370px;
+    height: 35px;
+    margin: 0px 5px 15px 5px;
+}
+
+
+.input-form{
+    /* box position */
+    position: absolute;
+    width: 320px;
+    height: 25px;
+    left: 25px;
+    top: 5px;
+    
+    /* box aesthetics */
+    padding: 3px;
+    text-align: center;
+    border: 3px solid #82AEC6;
+    background-color: #F0F0F0;
+}
+
+
+.box-button{
+    /* box position */
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin: 15px;
+}
+
+
+.botton{
+    /* box position */
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 65px;
+
+    /* box aesthetics */
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1851BF;
+} 
+/* END --- container-2 --- Create an Account */
